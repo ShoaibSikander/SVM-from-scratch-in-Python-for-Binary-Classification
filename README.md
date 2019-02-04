@@ -1,1 +1,7 @@
 # SVM-from-scratch-in-Python-for-Binary-Classification
+
+In this repository, Support Vector Machine classifier is implemented using scratch Python. Jupyter Notebook File explains each step and many commands have been added just for the sake of understanding. On the other hand, no explanation has been provided in Python File because it contains same commands as those in Jupyter Notebook with only difference of absence of unnecessary lines.
+
+Dataset used for this tutorial the is renown Iris Dataset which has in total 150 samples. There are 50 samples for each of the 3 classes named 'Iris-Setosa', 'Iris-Versicolor' and 'Iris-Virginica'. The number of features is 4 which are 'Sepal Length', 'Sepal Width', 'Petal Length' and 'Petal Width'. Since, binary classification has been addressed in this repository, therefore last class 'Iris-Virginica' has been neglected and its 50 samples have been omitted in the program. For the sake of simplicity, two features 'Sepal Width' and 'Petal Width' out of four have also not been considered. Summarizing this paragraph, dataset contains two classes 'Iris-Setosa' and 'Iris-Versicolor' with 50 samples and two features 'Sepal Length' and 'Petal Length' for each.
+
+Aftre training the model, a test accuracy score of 100% has been achieved. Same dataset has also been used for training and testing of SVM Classifier from Scikit-Learn. Getting same test accuracy score verifies the correctness of SVM Classifier implemented from scratch. 
