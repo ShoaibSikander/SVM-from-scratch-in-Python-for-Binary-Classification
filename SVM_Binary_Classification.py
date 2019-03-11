@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 print("Scratch Python Implementation!!!")
-data = pd.read_csv('/home/shoaib/Github/Support_Vector_Machine_Binary_Classification_from_scratch/Iris.csv')
+data = pd.read_csv('/home/shoaib/Github/Support_Vector_Machine_Binary_Classification_from_scratch/Dataset_Iris.csv')
 
 target = data['Species']
 
